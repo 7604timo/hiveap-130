@@ -1,0 +1,150 @@
+AH-b97a00#
+    802.1x-mac-table       Set parameters for the client MAC address table
+                           that is used to track the status of authenticated
+                           clients and those attempting authentication
+                           through 802.1X/EAP
+    aaa                    Set parameters for AAA (authentication,
+                           authorization, accounting)
+    access-console         Set access console parameters
+    admin                  Set the administrator parameters
+    alg                    Set ALG (Application Level Gateway) parameters
+    amrp                   Set AMRP (Advanced Mobility Routing Protocol)
+                           parameters
+    application            Set L7 related parameters
+    bonjour-gateway        Set parameters for the device to act as a Bonjour
+                           Gateway, collecting, filtering, and sharing
+                           Bonjour services across subnets/VLANs
+    boot-param             Set parameters for the boot loader
+    cac                    Set CAC (Call Admission Control) parameters for
+                           regulating the admission of new VoIP calls
+    capture                Set packet capture parameters
+    capwap                 Set parameters for CAPWAP (Control and
+                           Provisioning of Wireless Access Points)
+    clear                  Clear dynamic system information or remove all web
+                           directories
+    client-monitor         Set parameters for Client Monitor
+    client-tracing         Test client tracing
+    clock                  Set the internal clock
+    config                 Set parameters for the current configuration file,
+                           which is a flash file containing default and
+                           admin-defined settings
+    console                Set console parameters
+    data-collection        Set parameters for collecting data about the types
+                           and capabilities of devices on the network and the
+                           types of applications and IP protocols they use
+    debug                  Enable debug messages
+    designated-server      Set parameters for a dynamic server
+    device-group           Set a device group containing various objects that
+                           the HiveAP can use to classify client devices
+                           (Max: 64 groups)
+    device-location        Set the device location
+    dns                    Set DNS (Domain Name System) parameters
+    domain-object          Set parameters for a domain object that the HiveAP
+                           can use to assign a client that belongs to a
+                           matching device domain to a user profile (Max: 64
+                           domain objects per HiveAP)
+    exec                   Execute a command to initiate a task immediately
+    exit                   Exit from the current mode
+    filter                 Set packet capture filter parameters
+    forwarding-engine      Set parameters to shape the behavior of the
+                           forwarding engine
+    history                Set the capacity for command history
+    hive                   Create a hive or set hive parameters
+    hiveui                 Enable the NetConfig UI for defining network
+                           settings, configuring settings to connect to
+                           HiveManager, and uploading a new HiveOS image
+    hostname               Set the hostname of the AP
+    interface              Set interface parameters
+    ip                     Set IP parameters
+    ip-policy              Set IP policy parameters
+    iperf                  Set parameters for Iperf, a tool for testing and
+                           measuring network performance
+    ipv6                   Set IPv6 parameters
+    kddr                   Enable/disable the kddr report to HM
+    library-sip-policy     Set a SIP (Standard Interchange Protocol) policy
+                           to apply a user profile, VLAN, and session length
+                           to library patrons accessing the wireless network
+                           (Note: Set policies on a AP RADIUS server. Max
+                           policies: 16; Max rules per policy: 64.)
+    license                Set license parameters
+    lldp                   Set LLDP (Link Layer Discovery Protocol)
+                           parameters
+    load                   Load a configuration file
+    location               Set parameters for location tracking
+    logging                Set logging parameters
+    login                  Set parameters fot the CLI login
+    mac-object             Set parameters for an MAC object that the HiveAP
+                           can use to assign a client with a matching MAC
+                           address to a user profile (Max: 128 MAC objects
+                           per HiveAP.)
+    mac-policy             Set MAC policy parameters
+    mdm-object             Set the MDM (mobile device management) object
+    mobile-device-policy   Set a policy that assigns a user profile to
+                           traffic from a client based on the originally
+                           assigned user profile or the MAC address, device
+                           domain, and OS of the user's client
+    mobility-policy        Set parameters for a mobility policy
+    mobility-threshold     Set parameters for tunneling mobile user traffic
+    no                     Remove a configuration or return to a default
+                           setting
+    ntp                    Set NTP (Network Time Protocol) parameters
+    os-detection           Set the OS (Operating System) detection parameters
+    os-object              Set parameters for an OS object that the HiveAP
+                           can use to assign a client running a matching OS
+                           to a user profile (Max: 64 OS objects per HiveAP.)
+    os-version             Set the OS (operating system) version you want to
+                           detect in the DHCP packets
+    performance-sentinel   Set performance sentinel parameters to moderate
+                           client throughput
+    ping                   Perform a ping
+    probe                  Set the probe parameters
+    qos                    Set QoS (Quality of Service) parameters
+    quit                   Quit CLI (Command Line Interface)
+    radio                  Set radio profile parameters
+    reboot                 Reboot the system
+    report                 Set the parameters for gathering traffic
+                           statistics and reporting them to HiveManager
+    reset                  Return the configuration to its default settings
+                           or the files in a web directory to the default
+                           file set
+    reset-button           Enable the reset button on the AP chassis to reset
+                           the AP config
+    roaming                Set roaming parameter
+    route                  Set a MAC address route
+    save                   Save a configuration, HiveOS image, RADIUS
+                           database, or files used by the internal web,
+                           RADIUS servers, or packet capture tool
+    schedule               Set a schedule to control the application of user
+                           profiles and the availability of SSIDs
+    security               Set the security parameters
+    security-object        Set parameters for a security object controlling
+                           network access through the SSIDs and Ethernet
+                           interfaces to which it is applied
+    service                Set a custom service
+    show                   Show settings, parameters, or dynamically
+                           generated information
+    snmp                   Set SNMP (Simple Network Management Protocol)
+                           parameters
+    ssh-tunnel             Set SSH (Secure Shell) tunnel parameters so that
+                           Aerohive Technical Support can access the AP
+                           remotely
+    ssid                   Set SSID (Service Set Identifier) parameters
+    system                 Set system parameters
+    teacher-view           Set parameters for TeacherView, a tool for
+                           controlling student access to the network and
+                           monitoring their activity
+    time-object            Set a time object
+    tracert                Perform a traceroute
+    track                  Set parameters to track the reachability of one or
+                           more devices on the network
+    user                   Add one user or change user parameters
+    user-group             Set user group parameters
+    user-profile           Set parameters for a user profile
+    user-profile-policy    Set the user profile mapping policy
+    vlan-group             Set a VLAN group
+    vpn                    Set parameters for VPN (virtual private network)
+                           tunneling
+    web-directory          Create a web directory for the internal web server
+    web-security-proxy     Proxy HTTP and HTTPS traffic bound for the
+                           Internet to a web security server for filtering
+AH-b97a00#
